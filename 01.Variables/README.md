@@ -34,9 +34,9 @@ You can create a string variable by assigning a string to a variable name.
 
 ```python
 # Example of creating string variables
-name = "John Doe"
+name = "Vibhav Patel"
 greeting = 'Hello, World!'
-print(name)         # Output: John Doe
+print(name)         # Output: Vibhav Patel
 print(greeting)     # Output: Hello, World!
 ```
 
