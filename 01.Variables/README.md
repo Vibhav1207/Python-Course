@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/variables.png" alt="Python Course">
+  <img src="assets/variables.png">
 </div>
 
 ---
