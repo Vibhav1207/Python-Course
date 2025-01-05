@@ -68,10 +68,10 @@ print(last_name)    # Output: Patel
 
 Python provides several built-in methods that you can use to manipulate strings. Here are some common string methods:
 
-- (`upper()`): Converts all characters in the string to uppercase.
-- (`lower()`): Converts all characters in the string to lowercase.
-- (`replace(old, new)`): Replaces occurrences of a substring with another substring.
-- (`split(separator)`): Splits the string into a list of substrings based on the specified separator.
+- `upper()`: Converts all characters in the string to uppercase.
+- `lower()`: Converts all characters in the string to lowercase.
+- `replace(old, new)`: Replaces occurrences of a substring with another substring.
+- `split(separator)`: Splits the string into a list of substrings based on the specified separator.
 
 ```python 
 # Example of string methods
@@ -135,12 +135,12 @@ print(rounded_value)    # Output: 3.14
 
 Python provides several built-in functions that you can use with float variables. Here are some common ones:
 
-- (`abs()`): Returns the absolute value of a float.
-- (`math.ceil()`): Rounds a float up to the nearest integer.
-- (`math.floor()`): Rounds a float down to the nearest integer.
+- `abs()`: Returns the absolute value of a float.
+- `math.ceil()`: Rounds a float up to the nearest integer.
+- `math.floor()`: Rounds a float down to the nearest integer.
 
 ```python
-import math # in-built module
+import math #in-built module
 
 # Common float methods
 negative_value = -7.5
