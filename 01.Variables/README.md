@@ -292,7 +292,7 @@ print(less_than_or_equal)   # Output: True
 Python provides several built-in functions that return boolean values. Here are some common ones:
 
 - `bool()`: Converts a value to a boolean.
--`isinstance()`: Checks if an object is an instance of a specific class or type.
+- `isinstance()`: Checks if an object is an instance of a specific class or type.
 
 ```python 
 # Boolean methods
