@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/variables.png">
+  <img src="https://github.com/Vibhav1207/Python-Course/blob/main/assets/variables.png?raw=true">
 </div>
 
 ---
