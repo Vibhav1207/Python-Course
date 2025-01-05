@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/github/last-commit/Vibhav1207/Python-Course?style=flat-square&color=5D6D7E" alt="Last Updated" />
   <img src="https://img.shields.io/github/stars/Vibhav1207/Python-Course?style=social" alt="GitHub Stars" />
 </div>
+
 ---
 
 # Python Learning Journey
