@@ -11,8 +11,8 @@ Welcome to the Python Variables section! In this section, you'll learn about the
 
 - [Introduction](#-introduction)
 - [String Variables](#-string-variables)
+- [Float Variables](#-float-variables)
 - [Integer Variables](#integer-variables)
-- [Float Variables](#float-variables)
 - [Boolean Variables](#boolean-variables)
 - [Summary](#summary)
 
@@ -80,4 +80,75 @@ print(greeting.upper())         # Output: HELLO, WORLD!
 print(greeting.lower())         # Output: hello, world!
 print(greeting.replace("World", "Python"))  # Output: Hello, Python!
 print(greeting.split(", "))     # Output: ['Hello', 'World!']
+```
+
+# 🔬 Float Variables
+
+- A float variable is used to store numbers with a decimal point. Floats are useful when you need precision for calculations involving fractions or when you need to represent real numbers.
+
+### Creating Float Variables
+
+- You can create a float variable by assigning a number with a decimal point to a variable name.
+
+```python
+# Example of creating float variables
+pi = 3.14159
+temperature = 98.6
+print(pi)           # Output: 3.14159
+print(temperature)  # Output: 98.6
+```
+
+### Arithmetic Operations with Floats
+
+- You can perform various arithmetic operations on floats, such as addition, subtraction, multiplication, division, and more.
+
+```python
+# Arithmetic operations with floats
+a = 5.5
+b = 2.0
+
+addition = a + b
+subtraction = a - b
+multiplication = a * b
+division = a / b
+exponentiation = a ** b
+
+print(addition)         # Output: 7.5
+print(subtraction)      # Output: 3.5
+print(multiplication)   # Output: 11.0
+print(division)         # Output: 2.75
+print(exponentiation)   # Output: 30.25
+```
+
+### Rounding Floats
+
+- You can round float values to a specified number of decimal places using the (`round()`) function.
+
+```python 
+# Rounding floats
+value = 3.14159
+rounded_value = round(value, 2)
+print(rounded_value)    # Output: 3.14
+```
+
+### Common Float Methods
+
+Python provides several built-in functions that you can use with float variables. Here are some common ones:
+
+- (`abs()`): Returns the absolute value of a float.
+- (`math.ceil()`): Rounds a float up to the nearest integer.
+- (`math.floor()`): Rounds a float down to the nearest integer.
+
+```python
+import math # in-built module
+
+# Common float methods
+negative_value = -7.5
+absolute_value = abs(negative_value)
+ceiling_value = math.ceil(pi)
+floor_value = math.floor(pi)
+
+print(absolute_value)   # Output: 7.5
+print(ceiling_value)    # Output: 4
+print(floor_value)      # Output: 3
 ```
