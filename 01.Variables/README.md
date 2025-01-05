@@ -13,9 +13,7 @@ Welcome to the Python Variables section! In this section, you'll learn about the
 - [String Variables](#-string-variables)
 - [Float Variables](#-float-variables)
 - [Integer Variables](#-integer-variables)
-- [Boolean Variables](#boolean-variables)
-- [Summary](#summary)
-
+- [Boolean Variables](#-boolean-variables)
 ## 📚 Introduction
 
 Variables are containers for storing data values. In Python, you don't need to declare the type of a variable, as Python is dynamically typed. This means you can assign different types of values to the same variable.
@@ -223,4 +221,85 @@ print(min_value)        # Output: 1
 string_number = "123"
 integer_number = int(string_number)
 print(integer_number)   # Output: 123
+```
+# ✅ Boolean Variables
+
+A boolean variable is used to store one of two values: `True` or `False`. Booleans are often used in conditional statements and loops to control the flow of a program.
+
+### Creating Boolean Variables
+
+- You can create a boolean variable by assigning `True` or `False` to a variable name.
+
+```python
+# Example of creating boolean variables
+is_student = True
+has_passed = False
+print(is_student)   # Output: True
+print(has_passed)   # Output: False
+```
+
+### Logical Operations with Booleans
+
+- You can perform various logical operations with booleans, such as `and`, `or`,`not`.
+
+```python 
+# Logical operations with booleans
+a = True
+b = False
+
+and_operation = a and b
+or_operation = a or b
+not_operation = not a
+
+print(and_operation)    # Output: False
+print(or_operation)     # Output: True
+print(not_operation)    # Output: False
+```
+
+### Comparison Operators
+
+Comparison operators are used to compare values. They return a boolean value (True or False). Common comparison operators include:
+
+- `==`: Equal to
+- `!=`: Not equal to
+- `>`: Greater than
+- `<`: Less than
+- `>=`: Greater than or equal to
+- `<=`: Less than or equal to
+
+```python 
+# Comparison operations
+x = 10
+y = 20
+
+equal = x == y
+not_equal = x != y
+greater_than = x > y
+less_than = x < y
+greater_than_or_equal = x >= y
+less_than_or_equal = x <= y
+
+print(equal)                # Output: False
+print(not_equal)            # Output: True
+print(greater_than)         # Output: False
+print(less_than)            # Output: True
+print(greater_than_or_equal) # Output: False
+print(less_than_or_equal)   # Output: True
+```
+
+### Boolean Methods
+
+Python provides several built-in functions that return boolean values. Here are some common ones:
+
+- `bool()`: Converts a value to a boolean.
+-`isinstance()`: Checks if an object is an instance of a specific class or type.
+
+```python 
+# Boolean methods
+value = 5
+boolean_value = bool(value)
+is_integer = isinstance(value, int)
+
+print(boolean_value)    # Output: True
+print(is_integer)       # Output: True
 ```
