@@ -10,25 +10,40 @@ Welcome to the Python Variables section! In this section, you'll learn about the
 ## 📚 Table of Contents
 
 - [Variables](#-variables)
-- [String Variables](#-string-variables)
-- [Float Variables](#-float-variables)
-- [Integer Variables](#-integer-variables)
-- [Boolean Variables](#-boolean-variables)
+- [Datatype](#-data-type)
+- [String Dataype](#-string-datatype)
+- [Float Dataype](#-float-datatype)
+- [Integer Dataype](#-integer-datatype)
+- [Boolean Dataype](#-boolean-datatype)
 ## 📚 Variables
 
 Variables are containers for storing data values. In Python, you don't need to declare the type of a variable, as Python is dynamically typed. This means you can assign different types of values to the same variable.
 
-## 📜 String Variables
+```python 
+a = 1
+b = True
+c = "Vibhav"
+d = None
+```
+- These are four variables of different data types.
+--- 
+## 📊 Data Type
+Data type specifies the type of value a variable holds. This is required in programming to do various operations without causing an error.
+In python, we can print the type of any operator using type function:
+```python
+a = 1
+print(type(a))
+b = "1"
+print(type(b))
+```
 
-- In this section, you'll learn about string variables in Python, including how to create them, perform operations like concatenation, slicing, and more.
+## 📜 String Datatype
 
-### What is a String Variable?
+- A string  is used to store text data. In Python, you can create a string variable by enclosing text in single quotes (`'`) or double quotes (`"`). Strings are immutable, meaning that once a string is created, it cannot be changed.
 
-- A string variable is used to store text data. In Python, you can create a string variable by enclosing text in single quotes (`'`) or double quotes (`"`). Strings are immutable, meaning that once a string is created, it cannot be changed.
+### Creating String Datatype
 
-### Creating String Variables
-
-- You can create a string variable by assigning a string to a variable name.
+- You can create a string  by assigning a string to a variable name.
 
 ```python
 # Example of creating string variables
@@ -80,13 +95,13 @@ print(greeting.replace("World", "Python"))  # Output: Hello, Python!
 print(greeting.split(", "))     # Output: ['Hello', 'World!']
 ```
 
-# 🔬 Float Variables
+# 🔬 Float Datatype
 
-- A float variable is used to store numbers with a decimal point. Floats are useful when you need precision for calculations involving fractions or when you need to represent real numbers.
+- A float  is used to store numbers with a decimal point. Floats are useful when you need precision for calculations involving fractions or when you need to represent real numbers.
 
-### Creating Float Variables
+### Creating Float Datatype
 
-- You can create a float variable by assigning a number with a decimal point to a variable name.
+- You can create a float  by assigning a number with a decimal point to a variable name.
 
 ```python
 # Example of creating float variables
@@ -151,11 +166,11 @@ print(ceiling_value)    # Output: 4
 print(floor_value)      # Output: 3
 ```
 
-# 🔢 Integer Variables
+# 🔢 Integer Datatype
 
-An integer variable is used to store whole numbers (without a decimal point). Integers can be both positive and negative. They are commonly used for counting and indexing.
+An integer  is used to store whole numbers (without a decimal point). Integers can be both positive and negative. They are commonly used for counting and indexing.
 
-### Creating Integer Variables
+### Creating Integer Datatype
 
 - You can create an integer variable by assigning a whole number to a variable name.
 
@@ -222,13 +237,13 @@ string_number = "123"
 integer_number = int(string_number)
 print(integer_number)   # Output: 123
 ```
-# ✅ Boolean Variables
+# ✅ Boolean Datatype
 
-A boolean variable is used to store one of two values: `True` or `False`. Booleans are often used in conditional statements and loops to control the flow of a program.
+A boolean is used to store one of two values: `True` or `False`. Booleans are often used in conditional statements and loops to control the flow of a program.
 
-### Creating Boolean Variables
+### Creating Boolean Datatype
 
-- You can create a boolean variable by assigning `True` or `False` to a variable name.
+- You can create a boolean  by assigning `True` or `False` to a variable name.
 
 ```python
 # Example of creating boolean variables
