@@ -1,12 +1,8 @@
 <div align="center">
-  <img src="https://github.com/Vibhav1207/Python-Course/blob/main/assets/variables.png?raw=true">
+  <img src="https://github.com/Vibhav1207/Python-Course/blob/main/assets/variables-datatype.png?raw=true">
 </div>
 
 ---
-# 🐍 Python Variables
-
-Welcome to the Python Variables section! In this section, you'll learn about the different types of variables you can use in Python. Variables are used to store data, and Python supports several types of variables.
-
 ## 📚 Table of Contents
 
 - [Variables](#-variables)
