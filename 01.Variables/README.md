@@ -9,12 +9,12 @@ Welcome to the Python Variables section! In this section, you'll learn about the
 
 ## 📚 Table of Contents
 
-- [Introduction](#-introduction)
+- [Variables](#-variables)
 - [String Variables](#-string-variables)
 - [Float Variables](#-float-variables)
 - [Integer Variables](#-integer-variables)
 - [Boolean Variables](#-boolean-variables)
-## 📚 Introduction
+## 📚 Variables
 
 Variables are containers for storing data values. In Python, you don't need to declare the type of a variable, as Python is dynamically typed. This means you can assign different types of values to the same variable.
 
