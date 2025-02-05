@@ -1,6 +1,7 @@
 <div align="center">
   <img src="assets/pycourse.png" alt="Python Course">
-   <p><strong>Collection of Notes and projects that i learned during my python journey.</strong></p>
+   <p><strong>Collection of Notes and projects that i learned during my python journey. 
+   Note :- All the notes which you see in this repo are collection from 100 days of code by CodeWithHarry and Tech with tim</strong></p>
 </div>
 
 <div align="center">
