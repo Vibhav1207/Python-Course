@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Vibhav1207/Python-Course/blob/main/assets/typecasting.png?raw=true">
+  <img src="https://github.com/Vibhav1207/Python-Course/blob/main/assets/typecasating.png?raw=true">
 </div>
 
 ---
